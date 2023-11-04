@@ -122,8 +122,6 @@ EOF
 
 ---------------------------------------------------
 sudo mv $HOME/celestia-appd.service /etc/systemd/system/
---------------------------------------------------
-venom
 ----------------------------------------------------
 sudo systemctl enable celestia-appd
 sudo systemctl daemon-reload
