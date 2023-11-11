@@ -130,8 +130,6 @@ sudo systemctl restart celestia-appd && journalctl -u celestia-appd -f -o cat
 Press CTRL+C to stop the logs
 
 -------------------------------------------------------------
-file
---------------------------------
 sudo systemctl stop celestia-app.ff
 ----------------------------------------------------------
 cd $HOME
