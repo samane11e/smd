@@ -132,7 +132,7 @@ rm -rf ~/.celestia-app/data
 mkdir -p ~/.celestia-app/data
 SNAP_NAME=$(curl -s https://snaps.qubelabs.io/celestia
     egrep -o ">mamaki.*tar" | tr -d ">")
-wget -O - https://snaps.qubelabs.io/celestia/${SNAP_NAME} | tar xf k
+wget -O - https://snaps.qubelabs.io/celestia/${SNAP_NAME} | tar..
     -C ~/.celestia-app/data/
 --------------------------------------------------
 sudo systemctl restart celestia-appd && journalctl -u celestia-appd -f -o ver
