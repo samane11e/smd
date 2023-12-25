@@ -39,7 +39,8 @@ CELESTIA_CHAIN="mamaki"
 CELESTIA_NODENAME="sama
 CELESTIA_WALLET="amir8372"
 CELESTIA_CHAIN="mamaki"///
-
+---------------------------------------------
+fggfdtghjhh
 ----------------------------------------------------------
 echo 'export CELESTIA_CHAIN='$CELESTIA_CHAIN >> $HOME/.bash_profile
 echo 'export CELESTIA_NODENAME='${CELESTIA_NODENAME} >> $HOME/.bash_profile
