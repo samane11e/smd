@@ -92,7 +92,8 @@ scroll
 ---------------------------------------------------
 celestia-appd config chain-id $CELESTIA_CHAIN
 celestia-appd config keyring-backend test
-
+---------------------------------------------
+gghgddfcc
 -------------------------------------------------------
 tee $HOME/celestia-appd.service > /dev/null <<EOF
 [Unit]
