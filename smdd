@@ -26,8 +26,6 @@ celestia-appd version
 -------------------------------------------
 git clone https://github.com/celestiaorg/networks
 -----------------------  
-eerttt
--------------------------------
 cd $HOME
 rm -rf networks
 git clone https://github.com/celestiaorg/networks.git
@@ -67,7 +65,7 @@ max_num_inbound_peers=40
 max_num_outbound_peers=10 
 max_connections=50
 -------------------------------------------------
-qwerrzdfh
+
 ------------------------------------------------------------
 sed -i -e "s/^use-legacy *=.*/use-legacy = false/;\
 s/^max-num-inbound-peers *=.*/max-num-inbound-peers = $max_num_inbound_peers/;\
@@ -90,12 +88,12 @@ sed -i 's/snapshot-interval *=.*/snapshot-interval = 0/' $HOME/.celestia-app/con
 ---------------------------------------------------
 celestia-appd tendermint unsafe-reset-all --home $HOME/.celestia-app
 --------------------------------------------------------
-scroll
+
 ---------------------------------------------------
 celestia-appd config chain-id $CELESTIA_CHAIN
 celestia-appd config keyring-backend test
 ---------------------------------------------
-gghgddfcc
+
 -------------------------------------------------------
 tee $HOME/celestia-appd.service > /dev/null <<EOF
 [Unit]
@@ -121,7 +119,7 @@ Press CTRL+C to stop the logs
 --------------------------------------------------------
 sudo systemctl stop celestia-app.
 ----------------------------------------------------------
-rttterrr
+
 ----------------------------
 cd $HOME
 rm -rf ~/.celestia-app/data
