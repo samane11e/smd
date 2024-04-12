@@ -68,7 +68,6 @@ max_connections=50
 fyj
 wertyu
 etuil
-g
 ------------------------------------------------------------
 sed -i -e "s/^use-legacy *=.*/use-legacy = false/;\
 s/^max-num-inbound-peers *=.*/max-num-inbound-peers = $max_num_inbound_peers/;\
