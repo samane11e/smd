@@ -44,7 +44,7 @@ echo 'export CELESTIA_WALLET='${CELESTIA_WALLET} >> $HOME/.bash_profile
 source $HOME/.bash_profile
 
 ------------------------------------------------
-tyuikol;
+tyuik
 -------------------------------
 celestia-appd init $CELESTIA_NODENAME --chain-id $CELESTIA_CHAIN
 
